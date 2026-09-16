@@ -26,7 +26,7 @@ The script expects a file named `SMILES.csv` (or your specified path) containing
 | **MDS_MaxMin.py** | The main Python script for MaxMin. |
 | **Dissimalarity_Matrix.csv** | The $N \times N$ Tanimoto distance matrix ($1 - \text{similarity}$). |
 | **MDS_coordinates.csv** | CSV containing original data plus 2D MDS coordinates (`MDS1`, `MDS2`). |
-| **MDS_scatterplotMaxMin.pdf** | A high-resolution scatterplot of the chemical space. |
+| **MDS_scatterplot_MaxMin.pdf** | A high-resolution scatterplot of the chemical space. |
 
 **MaxMaxPicker**
 | File | Description |
