@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 INPUT_CSV_PATH  = os.path.join(BASE_DIR, "SMILES.csv")
 OUTPUT_MDS_CSV  = os.path.join(BASE_DIR, "MDS_coordinates_AP.csv")
 OUTPUT_PDF      = os.path.join(BASE_DIR, "MDS_scatterplot_MaxMax.pdf")
-OUTPUT_DIST_CSV = os.path.join(BASE_DIR, "Dissimilarity_Matrix.csv")
+OUTPUT_DIST_CSV = os.path.join(BASE_DIR, "dissimilarity_matrix.csv")
 
 # ==========================================
 # EXCLUSION & PICKER CONFIGURATION
