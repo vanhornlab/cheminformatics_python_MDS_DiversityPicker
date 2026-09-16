@@ -9,8 +9,10 @@ This repository provides a Python pipeline for visualizing chemical space. It co
 * **Classical MDS:** Implements metric scaling via eigendecomposition.
 * **Automated Path Recognition:** Uses os.path to ensure operating system functionality and file path recognition. 
 * **Illustrator Ready:** Generates a vector PDF with embedded TrueType fonts, allowing for direct text editing in Adobe Illustrator. Utilizes adjustText for label overlap.
+* **Ligand Highlighting** Gold halos highlight the ligands with the highest frequency of being selected in either algorithm. 
 * **MaxMinPicker Script:** Performs the MaxMin algorithm on the dissimilarity matrix. Since there is a single-run bias associated with the random seed selection, the algorithm is run n times (n=1000), and the top 5 most frequent ligands are highlighted on the scatterplot.
 * **MaxMaxPicker Script:** MaxMaxPicker is run identically to the MaxMinPicker; however, the algorithm is different. Instead of finding diversity, MaxMax will find the highest dissimilarity.
+* **Antagonist Selection and Ligand Exclusion:** The algorithms are run on only the antagonist ligands, and the user can exclude any ligands of their choice. 
 
 ## Input Requirements
 The script expects a file named `SMILES.csv` (or your specified path) containing the following columns:
